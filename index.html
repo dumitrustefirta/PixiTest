@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Test Game</title>
+</head>
+<body>
+    
+  <!-- Header Data-->
+  <div id="info">
+    <span id="shapeCount">Shapes: 0</span>
+    <span id="areaCount">Area: 0 px²</span>
+  </div>
+
+  <!-- Controllers -->
+  <div id="controls">
+
+    <div class="control">
+      <button id="minusFreq">-</button>
+      <p>Shape/sec: </p>
+      <span id="freqValue">1</span>
+      <button id="plusFreq">+</button>
+    </div>
+
+    <div class="control">
+      <button id="minusGrav">-</button>
+      <span id="gravValue">Gravity: 1</span>
+      <button id="plusGrav">+</button>
+    </div>
+
+  </div>
+
+    <script type="module" src="/src/app.js"></script>
+    
+</body>
+</html>
