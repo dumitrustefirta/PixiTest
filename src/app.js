@@ -1,4 +1,5 @@
 import { Application, Graphics } from "pixi.js";
+// import { Application, Graphics } from "../node_modules/pixi.js/dist/pixi.mjs";
 
 (async () => {
   const appWidth = 400;
